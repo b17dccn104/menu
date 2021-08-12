@@ -13,7 +13,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private TextView textView;
     private TextView tv;
+    private String c = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
